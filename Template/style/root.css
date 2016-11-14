@@ -1,0 +1,491 @@
+/*================================================================================
+	Item Name: Cupcake Mobile
+	Description: User-Friendly Admin Template
+	Author: Egemen Kapusuz
+	Author URL: http://www.themeforest.net/user/egemem
+	License: http://www.gnu.org/licenses/gpl-3.0.html
+
+	1.	GENERAL
+	2.	TYPOGRAPHY
+	3.	HEADER
+	4.	PROFILE BOX
+	5.	MENU
+	6.	FOOTER
+	7.	FORM ELEMENTS
+	8.	STATISTICS
+	9.	GALLERY
+	10.	LIST MENU
+	11.	ERROR PAGE
+	12.	ALERT BOXES
+	13.	TABLE
+	14.	SEARCH BOX
+
+================================================================================*/
+
+
+/*==============================================================================*/
+/*	1.	GENERAL
+/*==============================================================================*/
+body{
+	background:url(../img/bodybg.png);
+	font-size:12px;
+	color:#78858D;
+	line-height:20px;
+	font-family:Arial, Microsoft YaHei, sans-serif;}
+a{ color:#3175AA;}
+
+a:hover{ color:#333;}
+.page{
+	padding:17px 14px;}
+.simplebox{
+	margin-bottom:14px;}
+.simplebox .titleh{
+	background:#fff url(../img/gra-linear.png) repeat-x bottom;
+	color:#133D59;
+	padding:14px 14px;
+	border:1px solid #C1D6E6;
+	border-bottom:none;
+	font-size:14px;}
+.content{
+	background:#fff url(../img/dto-gray.png) repeat-x top;
+	border-top:1px solid #92B8D3;
+	border:1px solid #C1D6E6;
+	padding:14px;}
+
+.topbutton{
+	border:1px solid #92B8D3;
+	margin-bottom:20px;
+	border-radius:4px;
+	text-align:center;
+	background:#fff url(../img/gra-linear.png) repeat-x bottom;}
+.topbutton a{
+	display:block;
+	padding:13px;
+	font-weight:bold;}
+.topbutton span{
+	background:url(../img/page-top.png) no-repeat left;
+	padding:0px 20px;}
+.topbutton a:hover{
+	color:#17486C;}
+
+/*==============================================================================*/
+/*	2.	TYPOGRAPHY
+/*==============================================================================*/
+h1{
+	font-size:21px;
+	color:#2C6DA3;
+	padding:7px 0 13px 0;}
+h2{
+	font-size:19px;
+	color:#2C6DA3;
+	padding:7px 0 13px 0;}
+h3{
+	font-size:17px;
+	color:#2C6DA3;
+	padding:7px 0 13px 0;}
+h4{
+	font-size:15px;
+	color:#2C6DA3;
+	padding:7px 0 13px 0;}
+h5{
+	font-size:13px;
+	color:#2C6DA3;
+	padding:7px 0 13px 0;}
+
+blockquote{
+	background:#FFF9DB;
+	border:1px solid #F3D97E;
+	border-left:7px solid #F3D97F;
+	font-size:12px;
+	color:#988833;
+	line-height:17px;
+	padding:10px;
+	margin:13px 0px;
+	border-radius:3px;}
+
+.list-plus{
+	color:#64727C;
+	padding:5px 10px;}
+	
+.list-plus li{
+	display:block;
+	background:url(../img/icons/mini/plus.gif) no-repeat left 7px;
+	padding-left:13px;
+	line-height:17px;
+	padding-top:2px;
+	padding-bottom:8px;}
+
+.list-arrow{
+	color:#64727C;
+	padding:5px 10px;}
+	
+.list-arrow li{
+	display:block;
+	background:url(../img/icons/mini/arrow.png) no-repeat left 7px;
+	padding-left:13px;
+	line-height:17px;
+	padding-top:2px;
+	padding-bottom:8px;}
+
+/*==============================================================================*/
+/*	3.	HEADER
+/*==============================================================================*/
+#header{
+	background:url(../img/header-bg.png) repeat-x bottom;
+	height:46px;
+	position:relative;
+	text-align:center;}
+#header .logo{
+	margin-top:12px;}
+
+#header .button{
+	display:block;
+	background:url(../img/header-button.png) no-repeat 0px 0px;
+	width:34px;
+	position:absolute;
+	height:23px;
+	padding-top:9px;}
+#header .button:hover{
+	background:url(../img/header-button.png) no-repeat 0px -32px;}
+#header .button:active{
+	background:url(../img/header-button.png) no-repeat 0px -64px;}
+.back{
+	top:7px;
+	left:9px;}
+.search{
+	right:9px;
+	top:7px;}
+.create{
+	top:7px;
+	right:9px;}
+
+/*==============================================================================*/
+/*	4.	PROFILE BOX
+/*==============================================================================*/
+.profilebox{
+	background:#fff url(../img/gra-linear.png) repeat-x bottom;
+	border:1px solid #C1D6E6;
+	font-size:14px;
+	border-radius:3px;
+	padding:12px 10px;
+	color:#143D5B;
+	position:relative;
+	line-height:19px;
+	margin-bottom:14px;}
+.profilebox .avatar{
+	float:left;
+	margin-right:8px;}
+.profilebox .logout{
+	position:absolute;
+	width:30px;
+	height:30px;
+	background:url(../img/close-icon.png) no-repeat center;
+	text-indent:-9999px;
+	right:8px;
+	top:8px;}
+.profilebox .logout:hover{
+	background:url(../img/close-icon2.png) no-repeat center;}
+
+/*==============================================================================*/
+/*	5.	MENU
+/*==============================================================================*/
+#menu{
+	border-top:1px solid #C1D6E6;
+	padding-bottom:14px;
+	font-size:14px;}
+#menu li{
+	display:block;
+	border:1px solid #C1D6E6;
+	border-top:none;
+	background:#fff;
+	position:relative;}
+#menu li a{
+	display:block;
+	position:relative;
+	padding:17px;
+	color:#154364;
+	font-weight:bold;
+	padding-left:54px;
+	padding-right:15px;}
+#menu li .m-icon{
+	position:absolute;
+	left:14px;
+	top:15px;}
+#menu li a b{
+	display:block;
+	font:bold 14px Arial, Microsoft YaHei, sans-serif;
+	background:url(../img/arrow-ts.png) no-repeat right;}
+#menu li a:hover{
+	background:#4088C0 url(../img/menu-hover.png) repeat-x bottom;
+	color:#4088C0;}
+#menu li a:hover b{
+	background:url(../img/arrow-ts-hover.png) no-repeat right;
+	color:#fff;}
+#menu li a span{
+	font-weight:bold;
+	color:#fff;
+	background:#3277AB;
+	padding:3px 5px;
+	border-radius:2px;
+	margin-left:10px;}
+#menu li a:hover span{
+	background:#EAF0F6;
+	color:#3277AB;}
+#menu li a .red{
+	background:#E76463;}
+
+/*==============================================================================*/
+/*	6.	FOOTER
+/*==============================================================================*/
+.footer{
+	color:#86AECD;
+	font-size:11px;}
+
+
+
+/*==============================================================================*/
+/*	7.	FORM ELEMENTS
+/*==============================================================================*/
+label{ margin-right:7px;}
+
+input, select, textarea{
+	border:1px solid #D1D3D3;
+	border-top:1px solid #A5A6A6;
+	color:#A5A5A5;
+	font:12px Arial, Helvetica, sans-serif;
+	background:#fff url(../img/input-bg.png) repeat-x top;
+	border-radius:3px;
+	padding:10px;
+	margin-right:7px;}
+.form-line{
+	padding-bottom:19px;}
+.st-label{
+	display:block;
+	font-weight:bold;
+	padding-bottom:6px;}
+.submit-button{
+	font:14px Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	border:1px solid #17486C;
+	font-weight:bold;
+	text-shadow: 0px -1px #1C5580;
+	padding:8px;
+	border-radius:3px;
+	background:#246597 url(../img/blue-button.png) repeat-x top;}
+.submit-button:hover{
+	border:1px solid #113753;}
+.submit-button:active{
+	box-shadow: inset 0 0 0.5em #17486C;}
+.reset-button{
+	font:14px Arial, Helvetica, sans-serif;
+	color:#17476C;
+	border:1px solid #A3BDD3;
+	font-weight:bold;
+	text-shadow: 0px -1px #fff;
+	padding:8px;
+	border-radius:3px;
+	background:#fff url(../img/reset-button.png) repeat-x bottom;}
+.reset-button:hover{
+	border:1px solid #88AAC6;}
+.reset-button:active{
+	box-shadow: inset 0 0 0.5em #A3BDD3;}
+
+/*==============================================================================*/
+/*	8.	STATISTICS
+/*==============================================================================*/
+.statistics{ padding:0;}
+.statistics li{
+	border-bottom:1px solid #E3EBF3;
+	padding:12px 14px;
+	display:block;
+	position:relative;}
+.statistics li p{
+	display:block;
+	position:absolute;
+	text-align:right;
+	right:14px;
+	top:12px;}
+.statistics .green{ color:#308359;}
+.statistics .blue{ color:#4B789A;}
+.statistics .red{ color:#CD6557;}
+
+/*==============================================================================*/
+/*	9.	GALLERY
+/*==============================================================================*/
+.get-photo{
+	border-bottom:1px solid #E3EBF3;
+	padding:10px 0px;}
+.get-photo img{
+	float:left;
+	width:44px;
+	height:33px;
+	margin-right:8px;}
+
+/*==============================================================================*/
+/*	10.	LIST MENU
+/*==============================================================================*/
+.navbox{
+	border-top:1px solid #C1D6E6;
+	padding-bottom:14px;
+	font-size:12px;
+}
+.navbox li{
+	display:block;
+	border:1px solid #C1D6E6;
+	border-top:none;
+	background:#fff;}
+.navbox li table{
+	width: 100%;
+}
+.navbox li table td{
+	width: 33%;
+	text-align: center;
+}
+.navbox li table td a{
+	display: block;
+	padding: 14px;
+}
+
+.list-menu{
+	border-top:1px solid #C1D6E6;
+	padding-bottom:14px;
+	font-size:12px;}
+.list-menu li{
+	display:block;
+	border:1px solid #C1D6E6;
+	border-top:none;
+	background:#fff;}
+.list-menu li a{
+	display:block;
+	position:relative;
+	padding:14px;
+	color:#154364;
+	font-weight:bold;
+	padding-left:15px;
+	padding-right:15px;}
+.list-menu li a b{
+	background:url(../img/arrow-ts.png) no-repeat right;
+	padding-right:19px;
+	display:block;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	line-height:23px;}
+.list-menu li a:hover{
+	background:#4088C0 url(../img/menu-hover.png) repeat-x bottom;
+	color:#4088C0;}
+.list-menu li a:hover b{
+	background:url(../img/arrow-ts-hover.png) no-repeat right;
+	color:#fff;}
+.list-menu li a span{
+	font-weight:bold;
+	color:#3277AB;
+	padding:3px 5px;
+	border-radius:2px;
+	margin-left:10px;}
+.list-menu li a:hover span{
+	background:#EAF0F6;
+	color:#3277AB;}
+.list-menu a .red{
+	background:#E76463;}
+
+/*==============================================================================*/
+/*	11.	ERROR PAGE
+/*==============================================================================*/
+.error-page{
+	text-align:center;
+	color:#78858C;}
+.error-page h3{
+	color:#E76463;
+	font-size:14px;
+	line-height:21px;
+	padding:10px 0px;}
+.error-page p{
+	border-top:1px solid #E3EBF3;
+	border-bottom:1px solid #E3EBF3;
+	padding:10px 0px;}
+.error-page .buttons{
+	padding:20px 0px;}
+
+/*==============================================================================*/
+/*	12.	ALERT BOXES
+/*==============================================================================*/
+.albox{
+	font-size:12px;
+	line-height:17px;
+	box-shadow:0px 1px 0px 0px #F7F7F7;
+	position:relative;
+	margin:15px 0px;
+	padding:14px 42px;
+	border-radius:2px;}
+.albox .close{
+	display:block;
+	position:absolute;
+	width:30px;
+	height:30px;
+	text-indent:-9999px;
+	right:0;
+	top:0;
+	background:url(../img/icons/mini/close-opacity-21.png) no-repeat center;}
+.albox .close:hover{
+	background:url(../img/icons/mini/close-opacity-42.png) no-repeat center;}
+.albox .icon{
+	position:absolute;
+	left:14px;
+	top:14px;}
+.warningbox{
+	background:#FFF8D8 url(../img/icons/error/error.png) no-repeat 14px 14px;
+	border:1px solid #F3D97E;
+	color:#A68510;}
+.succesbox{
+	background:#EBF9E2 url(../img/icons/error/accept.png) no-repeat 14px 14px;
+	border:1px solid #BEE4A5;
+	color:#658C2C;}
+.informationbox{
+	background:#E9F3F8 url(../img/icons/error/help.png) no-repeat 14px 14px;
+	border:1px solid #BBD7E4;
+	color:#3876C6;}
+.errorbox{
+	background:#F8E9E9 url(../img/icons/error/cross.png) no-repeat 14px 14px;
+	border:1px solid #E4BBBC;
+	color:#BF2C11;}
+
+/*==============================================================================*/
+/*	13.	TABLE
+/*==============================================================================*/
+.tabledata{
+	width:100%;
+	border:1px solid #C1D6E6;
+	background:#fff;}
+.tabledata th, .tabledata td{
+	border:1px solid #C1D6E6;
+	padding:5px;}
+.tabledata tbody{border:1px solid #C1D6E6;}
+.tabledata thead{
+	background:#fff url(../img/gra-linear-with-dot.png) repeat-x bottom;
+	border-bottom:1px solid #C1D6E6;
+	text-align:left;}
+
+/*==============================================================================*/
+/*	14.	SEARCH BOX
+/*==============================================================================*/
+.searchbox{
+	position:relative;
+	background:#fff url(../img/gra-linear-with-dot.png) repeat-x bottom;
+	border-bottom:1px solid #C1D6E6;
+	padding:14px;
+	display:none;}
+.searchbox form{}
+.searchbox .txtbox{
+	font:bold 14px Arial, Helvetica, sans-serif;
+	width:70%;
+	background:#fff url(../img/search-blue.png) no-repeat left;
+	padding-left:30px;}
+.searchbox .button{
+	position:absolute;
+	border:0;
+	padding:0;
+	position:absolute;
+	background:red;
+	background-image:none;
+	top:10px;
+	right:14px;}
+
