@@ -20,15 +20,6 @@
     <li> <img src="images/1 (4).JPG" alt="banner">
       <h1> 科技感科技感科技感 </h1>
     </li>
-    <li> <img src="images/1 (4).JPG" alt="banner">
-      <h1> 科技感科技感科技感 </h1>
-    </li>
-    <li> <img src="images/1 (4).JPG" alt="banner">
-      <h1> 科技感科技感科技感 </h1>
-    </li>
-    <li> <img src="images/1 (4).JPG" alt="banner">
-      <h1> 科技感科技感科技感 </h1>
-    </li>
   </ul>
 </div>
 <div id="mian">
