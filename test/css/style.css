@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	transition: all 1s;
+}
+body{
+	font-size:12px;
+	font-family:"微软雅黑 light";
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+#top{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background-color:#0A877A;
+	color:#fff;
+	position:absolute;
+	box-shadow:0 2px 2px rgba(0,0,0,0.6);
+	z-index:10000;
+}
+.top{
+	height:50px;
+}
+.menu{
+	position:absolute;
+	left:20px;
+}
+#menu{
+	width:100px;
+	position:absolute;
+	text-align:center;
+	box-shadow:0 2px 2px rgba(0,0,0,0.5);
+	display:none;
+	z-index:9999999;
+}
+#menu a{
+	color:#fff;
+}
+#menu ul li{
+	height:30px;
+	line-height:30px;
+	background-color:#0A877A;
+}
+#banner{
+	width:100%;
+	height:250px;
+	overflow:hidden;
+	position:relative;
+
+}
+#banner img{
+	width:100%;
+		height:250px;
+}
+.banner{
+	height:250px;
+}
+banner-nav{
+	position:absolute;
+	bottom:0;
+	z-index:699999;
+}
+.banner ul.show{
+	height:250px;
+	display:-webkit-box;
+	position:absolute;
+}
+.banner ul.show li {
+	width:375px;
+	-webkit-box-flex:1;
+}
+.banner ul.show li img{
+	width:100%;
+}
+
+.banner ul.nav{
+	width:100%;
+	position:absolute;
+	text-align:center;
+	bottom:20px;
+}
+.banner ul.nav li.show{
+	background-color:#0A877A;
+}
+.banner ul.nav li{
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	background-color:#fff;
+	display:inline-block;
+}
+#main{
+	width:100%;
+}
+.index-nav{
+	width:100%;
+}
+.index-nav ul{
+	display:-webkit-box;
+}
+.index-nav ul li{
+	-webkit-box-flex:1;
+	padding:5px;
+
+}
+
+.index-nav ul li img{
+	width:100%;
+}
+.index-nav ul li figure{
+	background-color:#0A877A;
+	border:2px solid #0A877A;
+}
+.index-nav ul li figcaption{
+	text-align:center;
+	color:#fff;
+	height:20px;
+	line-height:20px;
+}
+#footer{
+	width:100%;
+	margin-top:20px;
+	background-color:#0A877A;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+}
+#footer a{
+	color:#fff;
+}
+#footer ul{
+	display:-webkit-box;
+}
+#footer ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+}
+.show-ul{
+	width:100%;
+	margin-top:10px;
+	display:-webkit-box;
+}
+.show-ul article{
+	margin-top:10px;
+	text-align:center;
+	-webkit-box-flex:1;
+	padding:5px;
+}
+.show-ul article span{
+	width:100px;
+}
+.show-ul article span img{
+	border-radius:10px;
+	width:100%;
+}
+.show-main{
+	width:90%;
+	margin: 5px auto 0px auto;
+}
+.show-main h1{
+	text-align:center;
+}
+.show-main article{
+	margin-top:10px;
+}
+.show-main article img{
+	width:100%;
+}
+
+
+
