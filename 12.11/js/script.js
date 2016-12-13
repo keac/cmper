@@ -11,7 +11,7 @@ $(document).ready(function() {
 		}
 	});
 	var b_width=$(document).width();
-	bammer_w=$("#banner_show").children("li").css("width",b_width);
+	$("#banner_show").children("li").css("width",b_width);
 	var bammer_w=$("#banner_show").children("li").length*b_width;
 	$("#banner_show").css("width",bammer_w);
 	var w=0;

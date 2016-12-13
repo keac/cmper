@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-size:12px;
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑 light";
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clear{
+	clear:both;
+}
+#top{
+	background-color:#1CAC7D;
+	height:50px;
+	box-shadow:0 5px 5px rgba(0,0,0,0.20);
+	line-height:50px;
+}
+.menu{
+	position:absolute;
+	left:10px;
+	height:50px;
+	line-height:50px;
+	color:#fff;
+}
+#top h1{
+	font-size:25px;
+	font-weight:normal;
+	color:#fff;
+	text-align:center;
+}
+#menu{
+	width:150px;
+	position:absolute;
+	display:none;
+}
+#menu li{
+	background-color:#1CAC7D;
+	line-height:20px;
+	text-indent:10px;
+}
+#menu li a{
+	font-size:15px;
+	
+	color:#fff;
+}
+#banner{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	height:250px;
+}
+#banner ul.show{
+	display:-webkit-box;
+	position:absolute;
+}
+#banner ul.show li{
+	width:375px;
+	-webkit-box-flex:1;
+}
+#banner ul.show li img{
+	width:100%;
+	max-height:250px;
+}
+#banner .nav{
+	width:100%;
+	position:absolute;
+	bottom:10px;
+	text-align:center;
+}
+#banner .nav li{
+	background-color:#fff;
+	width:8px;
+	height:8px;
+	border-radius:50px;
+	display:inline-block;
+}
+#banner .nav li.show{
+	background-color:#1CAC7D;
+}
+	
