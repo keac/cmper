@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	transition:all 1s;
+}
+body{
+	font-family:"微软雅黑 light";
+	font-size:12px;
+
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clear{
+	clear:both;
+}
+#top{
+	background-color:#16a6b7;
+	height:50px;
+	box-shadow:0 5px 5px rgba(0,0,0,0.31);
+	color:#fff;
+	position:relative;
+	z-index:999;
+}
+#top h1{
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+	font-weight:normal;
+
+}
+.top_l{
+	height:50px;
+}
+.menu{
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:10px;
+	line-height:50px;
+}
+#menu{
+	width:100px;
+	position:absolute;
+	left:0;
+	z-index:9999;
+		display:none;
+}
+#menu li{
+	height:30px;
+	line-height:30px;
+	background-color:#16a6b7;
+	color:#fff;
+	box-shadow:0 5px 5px rgba(0,0,0,0.41);
+	text-align:center;
+
+}
+#menu li a{
+	color:#fff;
+}
+#banner{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	height:250px;
+}
+#banner img{
+	width:100%;
+	height:250px;
+}
+#banner ul.show{
+	height:250px;
+	position:absolute;
+}
+#banner ul.show li{
+	width:375px;
+	float:left;
+}
+#banner ul.show li img{
+	width:100%;
+}
+#banner ul.nav{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	width:100%;
+}
+#banner ul.nav li{
+	width:10px;
+	height:10px;
+	background-color:#fff;
+	border-radius:20px;
+	display:inline-block;
+}
+#banner ul.nav li.show{
+		background-color:#16a6b7;
+}
+#main{
+	margin-top:10px;
+}
+.index_nav ul{
+	display:-webkit-box;
+}
+.index_nav ul li{
+	-webkit-box-flex:1;
+	padding:5px;
+	text-align:center;
+}
+.index_nav ul li figure{
+
+}
+.index_nav ul li figure img{
+	width:80%;
+}
+.index_nav ul li figcaption{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:15px;
+}
+#footer {
+	background-color:#16a6b7;
+}
+#footer ul{
+	display:-webkit-box;
+}
+#footer ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+	padding:5px;
+}
+#footer ul li img{
+	width:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer ul li label{
+	width:100%;
+	display:block;
+	margin-top:5px;
+	font-size:15px;
+	color:#fff;
+}
+.show_ul article{
+	width:50%;
+	float:left;
+	height:150px;
+}
+.show_ul article img{
+	width:100%;
+	height:120px;
+	display:block;
+}
+.show_ul article h1{
+	width:100%;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+
+.wen{
+	padding:5px;
+}
+.wen article{
+	margin-top:20px;
+}
+.wen article img{
+	width:100%;
+}
+.show_ul_b article{
+	margin-top:10px;
+	background-color:#16a6b7;
+	color:#fff;
+	height:50px;
+	line-height:50px;
+	box-shadow:0 5px 5px rgba(0,0,0,0.17);
+	padding-left:20px;
+}
+.show_ul_b article a{
+	color:#fff;
+}

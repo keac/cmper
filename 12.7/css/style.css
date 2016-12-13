@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	font-size:12px;
+	font-family:"微软雅黑 light";
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+#top{
+	position:relative;
+	color:#fff;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	background-color:#11BCAF;
+	box-shadow:0 5px 5px rgba(0,0,0,0.5);
+	z-index:9999;
+}
+#top h1{
+	font-weight:normal;
+}
+.menu{
+	position:absolute;
+	width:50px;
+	height:30px;
+	left:0;
+}
+#menu{
+	position:fixed;
+	width:100px;
+	line-height:30px;
+	text-align:center;
+	left:0;
+	background-color:#11BCAF;
+	box-shadow:0 5px 5px  rgba(0,0,0,0.5);
+	z-index:999999;
+	display:none;
+}
+#menu a{
+	color:#fff;
+}
+#banner{
+	width:100%;
+	height:200px;
+	position:relative;
+	overflow:hidden;
+}
+#banner img{
+	width:100%;
+}
+#banner ul.show{
+	height:200px;
+	position:absolute;
+}
+#banner ul.show li{
+	width:375px;
+	height:200px;
+	float:left;
+}
+#banner ul.show li img{
+	width:100%;
+}
+#banner ul.nav{
+	position:absolute;
+	width:100%;
+	bottom:15px;
+	text-align:center;
+}
+#banner ul.nav li{
+
+	border-radius:20px;
+	height:10px;
+	width:10px;
+	display:inline-block;
+	background-color:#fff;
+
+	
+}
+#banner ul.nav li.show{
+		background-color:#11BCAF;
+}
+#main{
+	margin-top:5px;
+}
+.idnex-nav ul{
+	display:-webkit-box;
+}
+.idnex-nav ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+	padding:5px;
+}
+.idnex-nav ul li figure{
+	background-color:#11BCAF;
+	border-radius: 10px 10px 0 0;
+}
+.idnex-nav ul li figure img{
+	width:50%;
+}
+.idnex-nav ul li figcaption{
+	height:30px;
+	line-height:30px;
+	background-color:#fff;
+}
+#footer{
+	margin-top:5px;
+	background-color:#2f2e2e;
+}
+#footer ul{
+	display:-webkit-box;
+}
+#footer ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+}
+#footer ul li img{
+	width:40%;
+	display:block;
+	margin:0 auto;
+}
+
+#footer ul li label{
+	width:100%;
+	color:#fff;
+	height:20px;
+	line-height:20px;
+}
+.news_list{
+	padding:5px;
+}
+.news_list article{
+	margin-bottom:10px;
+	height:110px;
+	clear:both;
+	overflow:hidden;
+}
+.news_img{
+	width:40%;
+	float:left;
+	display:inline-block;
+}
+.news_img img{
+	width:100%;
+}
+.news_list article span{
+	width:50%;
+	display:inline-block;
+	float:right;
+
+}
+
