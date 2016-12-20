@@ -26,6 +26,7 @@
     <li> <a href="#">车型论坛</a> </li>
     <li> <a href="#">车友会</a> </li>
     <li> <a href="#">在线咨询</a> </li>
+    
 </ul>
 <div id="banner">
   <ul class="show" id="banner_show">
@@ -96,21 +97,17 @@
 </div>
 <footer id="footer">
   <ul>
-    <li> <a href="index.php"> <img src="images/icon/images/i1_03.png">
-      <label> 首页 </label>
-      </a> </li>
-    <li> <a href="index.php"> <img src="images/icon/images/i1_05.png">
-      <label> 技术知识 </label>
-      </a> </li>
-    <li> <a href="index.php"> <img src="images/icon/images/i1_13.png">
-      <label> 在线商城 </label>
-      </a> </li>
-      <li> <a href="index.php"> <img src="images/icon/images/i1_10.png">
-      <label> 企
-业资讯 </label>
+    <li> <a href="#">
+    <img src="images/icon/images/i1_03.png">
+    <label>首页</label>
     </a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
   </ul>
-  </div>
 </footer>
 </body>
 </html>

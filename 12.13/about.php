@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>微网站</title>
+<title>无标题文档</title>
 <link href="css/style.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <script src="../../javascript/jquery-2.2.2.min.js"></script>
@@ -33,7 +33,6 @@
     <li> </li>
     <li> </li>
     <li> </li>
-     <li> </li>
   </ul>
 </div>
 <div id="main">
@@ -45,47 +44,47 @@
         </figure>
         </a> </li>
       <li> <a href="#">
-        <figure> <img src="images/icon/images/i_03.png">
-          <figcaption> 用车保养 </figcaption>
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
         </figure>
         </a> </li>
       <li> <a href="#">
-        <figure> <img src="images/icon/images/i_45.png">
-          <figcaption> 驾驶技巧 </figcaption>
-        </figure>
-        </a> </li>
-    </ul>
-    <ul>
-      <li> <a href="#">
-        <figure> <img src="images/icon/images/i_49.png">
-          <figcaption> 改装心得 </figcaption>
-        </figure>
-        </a> </li>
-      <li> <a href="#">
-        <figure> <img src="images/icon/images/i_35.png">
-          <figcaption> 网点分部 </figcaption>
-        </figure>
-        </a> </li>
-      <li> <a href="#">
-        <figure> <img src="images/icon/images/i_17.png">
-          <figcaption> 近期活动 </figcaption>
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
         </figure>
         </a> </li>
     </ul>
     <ul>
       <li> <a href="#">
-        <figure> <img src="images/icon/images/i_09.png">
-          <figcaption> 车型论坛 </figcaption>
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
         </figure>
         </a> </li>
       <li> <a href="#">
-        <figure> <img src="images/icon/images/i_26.png">
-          <figcaption> 车友会 </figcaption>
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
         </figure>
         </a> </li>
       <li> <a href="#">
-        <figure> <img src="images/icon/images/i_28.png">
-          <figcaption> 在线联系 </figcaption>
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
+        </figure>
+        </a> </li>
+    </ul>
+    <ul>
+      <li> <a href="#">
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
+        </figure>
+        </a> </li>
+      <li> <a href="#">
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
+        </figure>
+        </a> </li>
+      <li> <a href="#">
+        <figure> <img src="images/icon/images/i_07.png">
+          <figcaption> 企业品牌 </figcaption>
         </figure>
         </a> </li>
     </ul>
@@ -93,18 +92,16 @@
 </div>
 <footer id="footer">
   <ul>
-    <li> <a href="#"> <img src="images/icon/images/ico_03.png">
-      <label>首页</label>
-      </a> </li>
-    <li> <a href="#"><img src="images/icon/images/ico_05.png">
-      <label>首页</label>
+    <li> <a href="#">
+    <img src="images/icon/images/i1_03.png">
+    <label>首页</label>
     </a> </li>
-    <li> <a href="#"><img src="images/icon/images/ico_07.png">
-      <label>首页</label>
-    </a> </li>
-    <li> <a href="#"><img src="images/icon/images/ico_09.png">
-      <label>首页</label>
-    </a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
+    <li> <a href="#"><img src="images/icon/images/i1_03.png">
+    <label>首页</label></a> </li>
   </ul>
 </footer>
 </body>

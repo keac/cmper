@@ -5,6 +5,8 @@
 	margin:0;
 	padding:0;
 	font-family:"微软雅黑 light";
+	list-style:none;
+	transition:all 1s;
 }
 a{
 	text-decoration:none;
@@ -18,6 +20,8 @@ a{
 	height:50px;
 	box-shadow:0 5px 5px rgba(0,0,0,0.20);
 	line-height:50px;
+	z-index:999;
+	position:relative;
 }
 .menu{
 	position:absolute;
@@ -36,6 +40,7 @@ a{
 	width:150px;
 	position:absolute;
 	display:none;
+	z-index:9999999;
 }
 #menu li{
 	background-color:#1CAC7D;
@@ -68,7 +73,7 @@ a{
 #banner .nav{
 	width:100%;
 	position:absolute;
-	bottom:10px;
+	bottom:20px;
 	text-align:center;
 }
 #banner .nav li{
@@ -81,4 +86,71 @@ a{
 #banner .nav li.show{
 	background-color:#1CAC7D;
 }
-	
+#banner img{
+	width:100%;
+}
+#main{
+	width:100%;
+}
+.index-nav{
+	margin-top:10px;
+}
+.index-nav ul{
+	display:-webkit-box;
+}
+.index-nav ul li{
+	-webkit-box-flex:1;
+}
+.index-nav ul li figure{
+	padding:5px;
+	text-align:center;
+}
+.index-nav ul li figure img{
+	width:80%;
+}
+.index-nav ul li figure figcaption{
+	font-size:15px;
+}
+#footer{
+	margin-top:10px;
+	background-color:#1CAC7D;
+	height:50px;
+	line-height:30px;
+	color:#fff;
+	padding:5px 0 0 0; 
+}
+#footer a{
+	color:#fff;
+}
+#footer ul{
+	display:-webkit-box;
+}
+#footer ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+}
+#footer ul li img{
+	width:30%;
+	display:block;
+	margin:0 auto;
+}
+#footer ul li lable{
+	width:100%;
+}
+.show_list{
+	width:100%;
+}
+.show_list ul li{
+	padding:10px;
+	height:20px;
+	line-height:20px;
+	background-color:#1CAC7D;
+	margin-top:10px;
+	box-shadow:0 5px 5px rgba(0,0,0,0.23);
+	color:#fff;
+	font-size:20px;
+}
+.show_list ul li a{
+	color:#fff;
+	font-size:18px;
+}

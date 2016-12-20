@@ -60,8 +60,6 @@ $r = $db->query($sql);
       </span> </article>
      <?php
 }
-
-	 
 	 ?>
   
       <div class="ye">
