@@ -40,9 +40,6 @@
   if(!empty($_GET['page']))
 {
 	$page=intval($_GET['page']);
-	if($page>=$tot/$pagenum){
-		$page--;
-	}
 	if($page<=1)
 		$page =1;
 }
@@ -63,7 +60,7 @@ $r = $db->query($sql);
 	 ?>
   
       <div class="ye">
-      	<a href="news.php?page=<?php echo $page-1 ?>">上一页</a>  总页数：<?php echo $tot ?>  <a href="news.php?page=<?php echo $page+1 ?>">下一页</a>
+      	<a href="news.php?page=<?php echo $page-1 ?>">上一页</a>  总页数：<?php echo intval($tot/$pagenum+0.5) ?>  <a href="news.php?page=<?php echo $page+1 ?>">下一页</a>
       </div>
   </div>
 </div>

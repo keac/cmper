@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	transition:all 1s;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+body{
+	font-family:"微软雅黑 light";
+}
+#top{
+	height:50px;
+	background-color:#2CBCBA;
+	color:#fff;
+	
+	z-index:99999;
+	box-shadow:0 5px 5px rgba(2,2,2,0.5); 
+}
+.menu{
+	position:absolute;
+	left:10px;
+	height:50px;
+	line-height:50px;
+	
+}
+#menu{
+	width:100px;
+	position:absolute;
+	left:10px;
+	box-shadow:0 5px 5px rgba(0,0,0,0.5);
+	z-index:9999;
+	display:none;
+}
+#menu li{
+	height:30px;
+	line-height:30px;
+	background-color:#2CBCBA;
+	color:#fff;
+	text-indent:10px;
+
+	
+}
+#menu li a{
+	color:#fff;
+}
+#top h1{
+	text-align:center;
+	height:50px;
+	line-height:50px;
+}
+#banner{
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	height:250px;
+}
+#banner img{
+	width:100%;
+}
+#banner ul.show{
+	position:absolute;
+	height:250px;
+	display:-webkit-box;
+	overflow:hidden;
+	left:0;
+}
+#banner ul.show li{
+	-webkit-box-flex:1;
+	width:414px;
+	
+}
+#banner ul.nav{
+	position:absolute;
+	bottom:10px;
+	text-align:center;
+	width:100%;
+}
+#banner ul.nav li{
+	width:10px;
+	height:10px;
+	background-color:#fff;
+	border-radius:10px;
+	display:inline-block;
+}
+#banner ul.nav li.show{
+	background-color:#2CBCBA;
+}
+.index-nav ul{
+	display:-webkit-box;
+}
+.index-nav ul li{
+	-webkit-box-flex:1;
+}
+.index-nav ul li figure{
+	text-align:center;
+	padding:10px;
+}
+.index-nav ul li figure img{
+	width:100%;
+}
+#footer{
+	width:100%;
+	background-color:#A6A6A6;
+	height:50px;
+	line-height:50px;
+	
+}
+#footer ul{
+	display:-webkit-box;
+}
+#footer ul li{
+	-webkit-box-flex:1;
+	text-align:center;
+	
+}
+#footer ul li a{
+	text-align:center;
+	color:#fff;
+}
+
+
+
