@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.news{
+	list-style: none;
+	width: 300px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.news li{
+	width: 100%;
+	margin-top: 5px;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+} 
+.news li a{
+	text-decoration:none;
+	color: #000;
+}
+.news li a:hover{
+	border-bottom: 1px dotted #949494;
+}
+.news li h1{
+	
+	width: 70%;
+	float: left;
+	font-weight: normal;
+	font-size: 15px;
+	
+
+}
+.news li span{
+	width: 28%;
+	float: right;
+}
