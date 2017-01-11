@@ -8,7 +8,7 @@
 
 <body>
 <?php
-	$row=array("title"=>"23防守对方就束带结发技术的","date"=>"2017-1-11")
+	$row=array("title"=>"23防守对方就束带结发技术的","date"=>"2017-1-11");
 ?>
 	<ul class="news">
 	<?php
@@ -17,13 +17,12 @@
 	$sql="select * from news ";
 	$r=$db->query($sql);
 	  foreach($r->FetchAll(PDO::FETCH_ASSOC) as $row){
-		  
-	 
+		 
 		?>
 	
 		<li>
 		
-			<h1><a href="#">
+			<h1><a href="show.php?id=<?php echo $row['id'] ?>">
 				<?php echo $row['title'] ?>
 				</a>
 			</h1>
