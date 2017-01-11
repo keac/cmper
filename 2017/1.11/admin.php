@@ -36,7 +36,7 @@
 			
 			<?php
 		}else{
-			echo "欢迎".$_SESSION['id'];
+			echo "欢迎".$_SESSION['id']; echo "<a href='?out=233'>注销</a>"; echo date("Y/m/d");
 			/*Del news*/
 		if(!empty($_GET['delnews'])){
 			$del=intval($_GET['delnews']);
@@ -48,11 +48,16 @@
 				 echo " 删除失败";
 			}
 		}
+		if(!empty($_GET['out'])){
+			$_SESSION['id']="";
+			echo "<script>window.location.reload();</script>";
+		}
 				/*Add news*/
 		if(!empty($_GET['addnews'])){
 			$title=$_POST['title'];
 			$content=$_POST['content'];
-			$sql="INSERT INTO `news`(`title`, `content`, `date`) VALUES ('".$title."','".$content."',2017-1-11)";
+			$date=date("Y/m/d");
+			$sql="INSERT INTO `news`(`title`, `content`, `date`) VALUES ('".$title."','".$content."','".$date."')";
 			$r=$db->query($sql);
 			if($r->rowCount()>=0){
 				 echo " 添加 成功";

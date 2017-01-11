@@ -24,6 +24,10 @@
 	h1{
 		text-align:center;
 	}
+	.t.b{
+		color: blue;
+	}
+	
 </style>
 </head>
 
@@ -36,6 +40,11 @@
 <br>
 <br>
 <a href="index.php">返回</a>
+
+
+<div class="t b">
+	233
+	</div>
 </body>
 <?php
 	  }
