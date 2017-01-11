@@ -1,5 +1,7 @@
 <!doctype html>
-<?php session_start();?>
+<?php session_start();
+ini_set('date.timezone','Asia/Shanghai');
+?>
 <html>
 <head>
 <meta charset="utf-8">
