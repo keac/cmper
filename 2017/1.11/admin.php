@@ -6,6 +6,11 @@ ini_set('date.timezone','Asia/Shanghai');
 <head>
 <meta charset="utf-8">
 <title>后台管理</title>
+<style>
+	*{
+		transition: all 1s;
+	}
+</style>
 </head>
 
 <body>
@@ -20,6 +25,7 @@ ini_set('date.timezone','Asia/Shanghai');
 				$r=$db->query($sql);
 				if($r->rowCount()>=0){
 					$_SESSION['id']=$user;
+					echo "<script>window.location.reload();</script>";
 				}else{
 					echo "用户名密码错误";
 				}
@@ -38,6 +44,10 @@ ini_set('date.timezone','Asia/Shanghai');
 			
 			<?php
 		}else{
+			if(!empty($_GET['out'])){
+			$_SESSION['id']="";
+			 exit("<a href='admin.php'> 点击登录</a>");
+		}
 			echo "欢迎".$_SESSION['id']; echo "<a href='?out=233'>注销</a>"; echo date("Y/m/d");
 			/*Del news*/
 		if(!empty($_GET['delnews'])){
@@ -50,10 +60,7 @@ ini_set('date.timezone','Asia/Shanghai');
 				 echo " 删除失败";
 			}
 		}
-		if(!empty($_GET['out'])){
-			$_SESSION['id']="";
-			echo "<script>window.location.reload();</script>";
-		}
+		
 				/*Add news*/
 		if(!empty($_GET['addnews'])){
 			$title=$_POST['title'];

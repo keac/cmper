@@ -1,6 +1,6 @@
 <?php
 $dbname="mysql:hostname=localhost;dbname=news;charset=utf8";
 $dbuser="root";
-$dbpassword="rootroot";
+$dbpassword="root";
 $db=new PDO($dbname,$dbuser,$dbpassword);
 ?>

@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<?php
+<?php	
 	$row=array("title"=>"23防守对方就束带结发技术的","date"=>"2017-1-11");
 ?>
 	<ul class="news">
